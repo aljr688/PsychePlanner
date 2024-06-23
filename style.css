@@ -1,0 +1,228 @@
+html {
+    background-image: linear-gradient(#a9ebde, #ffffff);
+}
+
+
+nav {
+    text-align: left;
+    margin: 5px 50px 2px 50px;
+    border-bottom: 1px solid black;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    padding: 5px 50px 2px 50px;
+}
+
+a {
+    text-decoration-line: none;
+}
+
+form input {
+    margin: 30px;
+    background-color: #a9ebde;
+}
+
+
+h1 {
+    font-size: 50px;
+    text-align: left;
+    color: black;
+    margin: 80px 50px 30px 70px;
+}
+
+.center {
+    text-align: center;
+}
+
+.flex{
+    border: 50px; 
+    margin: 10px 50px 0px 50px; /* top-right-bottom-left */
+    padding: 10px 10px 10px 10px;
+    border-radius: 1%;
+    background-color: #8aa2d4;
+    display: inline-flex;    
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+
+.box1{   /* Quadrado da entrada - título*/
+    width: 400px;
+    height: 60px;
+    margin: 50px 50px 50px 80px;  /* top-right-bottom-left */
+    border-radius: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
+    background-color: #02C37E;
+}
+
+.box2 {  /* Quadrado da entrada */
+    width: 50%;
+    background-color: #8aa2d4;
+}
+
+.box3 {   /* Quadrado da entrada - texto*/
+    width: 50%;
+    background-color: #8aa2d4;
+}
+
+.box4 {   /* Quadrado da segunda parte - "Prático e Intuitivo" */
+    width:700px;
+    height: 500px;
+    margin: 150px 50px 50px 150px;
+    border-radius: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
+    background-color: white;
+}
+
+.box5 {   /* Quadrado da entrada - texto*/
+    margin: 150px 100px 50px 50px;
+    width: 50%;
+}
+
+.flex-2 {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+h2 {
+    text-align: center;
+    color: white;
+}
+
+h3 {
+    text-align: center;
+    color: white;
+    margin: 0px 50px 50px 30px;  /* top-right-bottom-left */
+}
+
+.preto {
+    text-align: left;
+    color: black;
+    margin: 0px 50px 50px 30px;
+}
+
+.serv {
+    font-family: Georgia, 'Times New Roman', Times, serif;  /* Não achei as fontes que estão no Canvas */
+    text-align: left;
+    color: #31241e;
+    margin: 20px 600px 50px 80px;  /* top-right-bottom-left */
+}
+
+img {
+    width: 80%;
+    margin: 0px 50px 0px 50px;
+    height: auto;
+}
+
+
+
+.flex-planos {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 50px 50px 50px; /* top-right-bottom-left */
+    list-style: none;
+}
+
+.planos-testar1{
+    text-align: center;
+    background-color: #a9ebde;
+    padding: 20px;
+    margin: 100px 125px 100px 125px; /* top-right-bottom-left */
+    width: 90px;
+    height: 20px;
+}
+
+.planos-testar2{
+    text-align: center;
+    background-color: #a9ebde;
+    padding: 20px;
+    margin: 140px 125px 200px 125px; /* top-right-bottom-left */
+    width: 90px;
+    height: 20px;
+}
+
+.planos-box {
+    display:list-item;
+    justify-content: first baseline;
+    margin: 10px;
+    width: 400px;
+    height: 500px;
+    background-color: white;
+}
+
+.flex-title-planos {
+    margin-top: 10;
+    margin-bottom: 10px;
+    font-family: 'Times New Roman', serif;
+    font-size: 20px;
+    color: black;
+}
+
+.gray{
+    color: #31241e;
+    text-align: center;
+    margin: 3px 10px 15px 10px;
+}
+
+.planos-lista{
+    line-height: 40px;
+    margin: 50px;
+    color: black;
+    text-align: left;
+}
+
+.planos-tittle {
+    background-color: #8AA2D4;
+    color: black;
+    width: 300px;
+    height: 70px;
+    padding: 20px;
+    margin: 30px;
+    text-align: center;
+    border-radius: 10px;
+    flex: 1;
+    box-sizing: border-box; /* Garante que padding e border sejam incluídos na largura e altura totais */
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+
+.flex-item {
+    background-color: #8AA2D4;
+    color: black;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 10px;
+    flex: 1;
+    max-width: 30%;
+    box-sizing: border-box;
+}
+
+.flex-title {
+    margin-top: 0;
+    font-family: 'Times New Roman', serif;
+    font-size: 20px;
+    color: black;
+}
+
+.flex-item img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 15px;
+}
+
+
+

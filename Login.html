@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>xx
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="style_login.css">
+    <link rel="stylesheet" href="index.html">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <a href="index.html"><li>Página Inicial</li></a>
+                <a href="serviços.html"><li>Serviços</li></a>
+                <a href="informações.html"><li>Sobre Nós</li></a>
+            </ul>  
+        </nav>
+    </header>   
+
+    <div class="flex">
+        <div class="box">
+            <h1>Login</h1>
+            <form action="/login" method="post">
+                <!-- Campo para usuário -->
+                <div class="form-group">
+                   <!-- <label for="username">Usuário</label> -->
+                    <div class="input-container">
+                        <!-- Ícone de usuário -->
+                        <i class="fas fa-user"></i>
+                        <!-- Campo de entrada para usuário -->
+                        <input type="text" id="username" name="username" placeholder="USUÁRIO" required>
+                    </div>
+                </div>
+                <!-- Campo para senha -->
+                <div class="form-group">
+                  <!--  <label for="password">Senha</label> -->
+                    <div class="input-container">
+                        <!-- Ícone de cadeado -->
+                        <i class="fas fa-lock"></i>
+                        <!-- Campo de entrada para senha -->
+                        <input type="password" id="password" name="password" placeholder="SENHA" required>
+                        <!-- Ícone para alternar a visualização da senha -->
+                        <i class="fas fa-eye toggle-password" id="togglePassword"></i>
+                    </div>
+                </div>
+                <!-- Botão de submissão do formulário -->
+                <button type="submit">Entrar</button>
+                <!-- Botão  de recuperação de senha -->
+                <button class="esqueci" type="submit">Esqueci minha senha</button>
+            </form>
+            <!-- Link para criar nova conta -->
+            <div class="signup-link">
+                <p>Ainda não possui cadastro? <a href="#">Crie uma conta!</a></p>
+            </div>
+            <!-- Link para contato por email -->
+            <div class="contact-link">
+                <!-- Ícone para alternar a visualização da senha -->
+                <i class="fa fa-envelope"></i> Entre em contato por <a href="mailto:email@exemplo.com">email</a></p>
+            </div>
+        </div>
+        <!-- Fim do contêiner de login -->
+
+        <!-- Inclusão do arquivo JavaScript externo -->
+        <script src="scripts_login.js"></script>
+        <div class="box5">
+            <img src="img/chave.png" alt="foto1" width="400" height="400">
+        </div>
+    </div>
+
+</body>
+</html>
