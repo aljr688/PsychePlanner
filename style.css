@@ -10,7 +10,12 @@ nav {
 }
 
 nav ul {
-    list-style: none;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+
 }
 
 nav li {
@@ -20,6 +25,9 @@ nav li {
 
 a {
     text-decoration-line: none;
+    font-size: 24px; /* Tamanho da fonte */
+    padding: 14px 20px;
+    display: block;
 }
 
 form input {
@@ -98,7 +106,7 @@ h2 {
 h3 {
     text-align: center;
     color: white;
-    margin: 0px 50px 50px 30px;  /* top-right-bottom-left */
+  
 }
 
 .preto {
@@ -115,7 +123,7 @@ h3 {
 }
 
 img {
-    width: 80%;
+    width: 400px;
     margin: 0px 50px 0px 50px;
     height: auto;
 }
@@ -224,5 +232,74 @@ img {
     margin-bottom: 15px;
 }
 
+.row {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
 
+.col {
+    flex: 1;
+    max-width: 600px;
+}
+
+.card {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-image {
+    position: relative;
+   
+}
+
+
+.card-image img {
+    width: 80%;
+    height: 60%;
+    display: block;
+    margin top: 20%;
+}
+
+.card-title {
+    position: absolute;
+    bottom: 16px;
+    left: 16px;
+    padding: 8px 16px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    font-size: 24px;
+    border-radius: 4px;
+}
+
+.card-content {
+    padding: 16px;
+    background-color: white;
+}
+
+.card-action {
+    padding: 16px;
+    background-color: white;
+    border-top: 1px solid #e0e0e0;
+}
+
+.card-action a {
+    color: #039be5;
+    text-decoration: none;
+}
+
+.enlarge-text {
+    font-size: 20px; /* Ajuste o tamanho conforme necessário */
+    font-weight: bold; /* Opcional: deixar o texto em negrito */
+    color: #000; /* Opcional: ajustar a cor */
+}
+
+.highlight-text {
+    font-size: 25px; /* Ajuste o tamanho conforme necessário */
+    color: #333; /* Opcional: ajustar a cor */
+    font-weight: bold;
+}
+   
 
